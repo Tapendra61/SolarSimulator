@@ -1,0 +1,65 @@
+# build outputs
+bin/
+obj/
+
+[Bb]in/
+[Oo]bj/
+
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+
+# Visual Studio / Rider user-local
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.VS/
+.vs/
+
+# Rider/ReSharper caches
+_ReSharper.Caches/
+*.ReSharper
+*.DotSettings.user
+riderModule.iml
+*.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+!packages/build/
+[Pp]ackages/*/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Logs
+logs/
+*.log
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+TestResult.xml
+
+# Benchmarks
+BenchmarkDotNet.Artifacts/
+
+# Publish output
+publish/
+*.publish.settings
+
+# Secrets / local env
+*.env
+appsettings.Local.json
+secrets.json
+

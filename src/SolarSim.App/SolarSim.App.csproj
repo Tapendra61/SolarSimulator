@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\SolarSim.Core\SolarSim.Core.csproj"/>
+		<ProjectReference Include="..\SolarSim.Render\SolarSim.Render.csproj"/>
+		<ProjectReference Include="..\SolarSim.UI\SolarSim.UI.csproj"/>
+	</ItemGroup>
+
+</Project>

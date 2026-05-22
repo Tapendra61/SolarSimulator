@@ -1,0 +1,31 @@
+<Project>
+	<PropertyGroup>
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+	</PropertyGroup>
+
+	<ItemGroup Label="Rendering &amp; UI">
+		<PackageVersion Include="Raylib-cs" Version="7.0.2" />
+		<PackageVersion Include="ImGui.NET" Version="1.91.6.1" />
+		<PackageVersion Include="Twizzle.ImPlot.NET" Version="1.89.4" />
+		<PackageVersion Include="rlImgui-cs" Version="3.2.0" />
+	</ItemGroup>
+
+	<ItemGroup Label="Engine infrastructure">
+		<PackageVersion Include="Arch" Version="2.1.0" />
+		<PackageVersion Include="Silk.NET.Maths" Version="2.23.0" />
+		<PackageVersion Include="Serilog" Version="4.3.1" />
+		<PackageVersion Include="Serilog.Sinks.Console" Version="6.1.1" />
+		<PackageVersion Include="Serilog.Sinks.File" Version="7.0.0" />
+	</ItemGroup>
+
+	<ItemGroup Label="Testing">
+		<PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.5.1" />
+		<PackageVersion Include="xunit" Version="2.9.3" />
+		<PackageVersion Include="xunit.runner.visualstudio" Version="3.1.5" />
+		<PackageVersion Include="FluentAssertions" Version="8.10.0" />
+	</ItemGroup>
+
+	<ItemGroup Label="Benchmarking">
+		<PackageVersion Include="BenchmarkDotNet" Version="0.15.8" />
+	</ItemGroup>
+</Project>

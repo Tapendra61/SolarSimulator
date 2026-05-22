@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\SolarSim.Core\SolarSim.Core.csproj" />
+  </ItemGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="Raylib-cs" />
+	</ItemGroup>
+</Project>

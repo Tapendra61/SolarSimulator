@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\SolarSim.Core\SolarSim.Core.csproj" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Raylib-cs" />
+		<PackageReference Include="ImGui.NET" />
+		<PackageReference Include="Twizzle.ImPlot.NET" />
+		<PackageReference Include="rlImgui-cs" />
+	</ItemGroup>
+</Project>
