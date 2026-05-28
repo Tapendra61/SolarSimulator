@@ -20,7 +20,7 @@ internal sealed class Application
 
 	// Physics Step attributes
 	private readonly double _simulationStep;
-	private readonly double _maxFrameTime = 0.25;
+	private const double _maxFrameTime = 0.25;
 
 	internal bool IsRunning { get; private set; }
 	internal AppConfig AppConfig => _appConfig;

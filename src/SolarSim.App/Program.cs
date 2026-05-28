@@ -5,7 +5,7 @@ namespace SolarSim.App;
 
 internal static class Program
 {
-	private static void Main(string[] args)
+	private static void Main()
 	{
 		LoggerFactory.Configure();
 		Log.Information("Starting Sirius Solar Simulator");

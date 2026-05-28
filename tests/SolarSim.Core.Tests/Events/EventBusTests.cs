@@ -22,13 +22,14 @@ public class EventBusTests
 	{
 		EventBus bus = new();
 		int callCount = 0;
-		void Handler(TestEvent evt) => callCount++;
 		bus.Subscribe<TestEvent>(Handler);
 
 		bus.Unsubscribe<TestEvent>(Handler);
 		bus.Publish(new TestEvent(1));
 
 		Assert.Equal(0, callCount);
+		return;
+		void Handler(TestEvent evt) => callCount++;
 	}
 
 	[Fact]
