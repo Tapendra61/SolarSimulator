@@ -1,5 +1,5 @@
-using Xunit;
 using SolarSim.Core.Events;
+using Xunit;
 
 namespace SolarSim.Core.Tests.Events;
 
