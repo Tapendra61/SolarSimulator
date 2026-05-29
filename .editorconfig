@@ -63,3 +63,9 @@ dotnet_naming_rule.interfaces_i_prefix.severity = warning
 csharp_style_expression_bodied_properties = true:suggestion
 csharp_style_expression_bodied_accessors = true:suggestion
 csharp_using_directive_placement = outside_namespace:warning
+
+# ECS components are plain-old-data containers — public mutable fields are the
+# idiomatic Arch pattern, so CA1051 (do not declare visible instance fields)
+# does not apply here.
+[src/SolarSim.Core/Scene/Components.cs]
+dotnet_diagnostic.CA1051.severity = none

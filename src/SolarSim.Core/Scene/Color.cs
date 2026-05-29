@@ -11,7 +11,7 @@ public readonly record struct Color(byte R, byte G, byte B, byte A = 255)
 	public static Color White => new(255, 255, 255);
 	public static Color Black => new(0, 0, 0);
 	public static Color Gray => new(128, 128, 128);
-	public static Color DarkGray => new(192, 192, 192);
-	public static Color LightGray => new(128, 128, 128);
+	public static Color DarkGray => new(80, 80, 80);
+	public static Color LightGray => new(200, 200, 200);
 	public static Color Clear => new(0, 0, 0, 0);
 }
