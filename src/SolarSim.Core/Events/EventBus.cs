@@ -15,7 +15,7 @@ public sealed class EventBus
 
 		if (!_handlers.TryGetValue(eventType, out List<Delegate>? handlers))
 		{
-			handlers = new List<Delegate>();
+			handlers = [];
 			_handlers[eventType] = handlers;
 		}
 

@@ -1,0 +1,3 @@
+namespace SolarSim.Core.Scene;
+
+
