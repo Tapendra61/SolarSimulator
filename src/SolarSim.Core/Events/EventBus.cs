@@ -7,8 +7,6 @@ public sealed class EventBus
 {
 	private readonly Dictionary<Type, List<Delegate>> _handlers = new();
 
-	private delegate void SomeDelegate(int a);
-
 	public void Subscribe<TEvent>(Action<TEvent> handler)
 	{
 		Type eventType = typeof(TEvent);
